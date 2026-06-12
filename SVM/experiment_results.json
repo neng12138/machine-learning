@@ -1,0 +1,221 @@
+{
+  "dataset1": {
+    "name": "Indonesian Credit Data",
+    "results": {
+      "Logistic Regression": {
+        "accuracy": 0.605,
+        "precision": 0.607,
+        "recall": 0.985,
+        "f1": 0.751,
+        "roc_auc": 0.564,
+        "confusion_matrix": [
+          [
+            118,
+            4726
+          ],
+          [
+            113,
+            7306
+          ]
+        ]
+      },
+      "Linear SVM": {
+        "accuracy": 0.605,
+        "precision": 0.607,
+        "recall": 0.986,
+        "f1": 0.751,
+        "roc_auc": 0.564,
+        "confusion_matrix": [
+          [
+            99,
+            4745
+          ],
+          [
+            103,
+            7316
+          ]
+        ]
+      },
+      "RBF SVM": {
+        "accuracy": 0.616,
+        "precision": 0.614,
+        "recall": 0.982,
+        "f1": 0.756,
+        "roc_auc": 0.58,
+        "confusion_matrix": [
+          [
+            268,
+            4576
+          ],
+          [
+            137,
+            7282
+          ]
+        ]
+      },
+      "Random Forest": {
+        "accuracy": 0.515,
+        "precision": 0.587,
+        "recall": 0.673,
+        "f1": 0.627,
+        "roc_auc": 0.439,
+        "confusion_matrix": [
+          [
+            1322,
+            3522
+          ],
+          [
+            2423,
+            4996
+          ]
+        ]
+      }
+    }
+  },
+  "dataset2": {
+    "name": "Australian Credit Approval",
+    "results": {
+      "Logistic Regression": {
+        "accuracy": 0.86,
+        "precision": 0.833,
+        "recall": 0.802,
+        "f1": 0.818,
+        "roc_auc": 0.919,
+        "confusion_matrix": [
+          [
+            113,
+            13
+          ],
+          [
+            16,
+            65
+          ]
+        ]
+      },
+      "Linear SVM": {
+        "accuracy": 0.865,
+        "precision": 0.819,
+        "recall": 0.84,
+        "f1": 0.829,
+        "roc_auc": 0.92,
+        "confusion_matrix": [
+          [
+            111,
+            15
+          ],
+          [
+            13,
+            68
+          ]
+        ]
+      },
+      "RBF SVM": {
+        "accuracy": 0.87,
+        "precision": 0.838,
+        "recall": 0.827,
+        "f1": 0.832,
+        "roc_auc": 0.933,
+        "confusion_matrix": [
+          [
+            113,
+            13
+          ],
+          [
+            14,
+            67
+          ]
+        ]
+      },
+      "Random Forest": {
+        "accuracy": 0.879,
+        "precision": 0.859,
+        "recall": 0.827,
+        "f1": 0.843,
+        "roc_auc": 0.93,
+        "confusion_matrix": [
+          [
+            115,
+            11
+          ],
+          [
+            14,
+            67
+          ]
+        ]
+      }
+    }
+  },
+  "dataset3": {
+    "name": "German Credit Data",
+    "results": {
+      "Logistic Regression": {
+        "accuracy": 0.733,
+        "precision": 0.864,
+        "recall": 0.732,
+        "f1": 0.793,
+        "roc_auc": 0.814,
+        "confusion_matrix": [
+          [
+            67,
+            24
+          ],
+          [
+            56,
+            153
+          ]
+        ]
+      },
+      "Linear SVM": {
+        "accuracy": 0.73,
+        "precision": 0.864,
+        "recall": 0.727,
+        "f1": 0.79,
+        "roc_auc": 0.816,
+        "confusion_matrix": [
+          [
+            67,
+            24
+          ],
+          [
+            57,
+            152
+          ]
+        ]
+      },
+      "RBF SVM": {
+        "accuracy": 0.75,
+        "precision": 0.856,
+        "recall": 0.77,
+        "f1": 0.811,
+        "roc_auc": 0.807,
+        "confusion_matrix": [
+          [
+            64,
+            27
+          ],
+          [
+            48,
+            161
+          ]
+        ]
+      },
+      "Random Forest": {
+        "accuracy": 0.743,
+        "precision": 0.758,
+        "recall": 0.928,
+        "f1": 0.834,
+        "roc_auc": 0.799,
+        "confusion_matrix": [
+          [
+            29,
+            62
+          ],
+          [
+            15,
+            194
+          ]
+        ]
+      }
+    }
+  }
+}
